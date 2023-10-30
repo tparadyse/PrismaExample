@@ -55,7 +55,7 @@ const RacerForm = ({ onClose, saveRacer, racerData, isEditing, editedRacer,
       <input type="text" placeholder="Edad" value={edad} onChange={(e) => setEdad(e.target.value)} />
       <select
         required
-        className={`${genero === "" ? "text-[#9CA3AF]" : "text-black"}`}
+        className={`${genero === "" ? "text-[#9CA3AF]" : "text-black"} mr-5`}
         value={genero}
         onChange={(e) => setGenero(e.target.value)}
       >
@@ -69,7 +69,7 @@ const RacerForm = ({ onClose, saveRacer, racerData, isEditing, editedRacer,
           Femenino
         </option>
       </select>
-      <input type="text" placeholder="Clase" value={clase} onChange={(e) => setClase(e.target.value)} />
+      <input  type="text" placeholder="Clase" value={clase} onChange={(e) => setClase(e.target.value)} />
 
       {error && <p className="text-red-600">{error}</p>}
 

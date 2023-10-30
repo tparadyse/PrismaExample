@@ -1,8 +1,0 @@
-/* Form.css */
-.bg-race-flag {
-    background-image: url('src/assets/flag.jpeg'); /* Reemplaza con la ruta correcta a tu imagen */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* Otros estilos si es necesario */
-}

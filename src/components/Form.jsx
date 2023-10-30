@@ -82,7 +82,7 @@ const Form = () => {
 
   return (
     <div className="bg-no-repeat bg-cover h-screen text-gray-600 bg-center">
-      <h1 className='text-white text-4xl text-center pt-5 mt-4 stroke-red-500'>SCORE INTERNATIONAL OFF ROAD RACING</h1>
+      <h1 className='text-white bg-black bg-opacity-50 text-4xl text-center pt-5 pb-5 mt-5'>SCORE INTERNATIONAL OFF ROAD RACING</h1>
       {racerData.length > 0 ? (
         <div className="flex justify-center items-center h-auto" /*h-full*/>
           <div className="w-2/3">
